@@ -5,14 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
     <title>Calcular peso</title>
 </head>
 <body>
-    <form action="/" class="container">
-        <h1 class="title">Ingresa tu peso </h1>
-        <label for="input">Ingresa aqui</label>
-        <input type="number" id="input" class="input">
-    </form>
+    <form>
+        <h1 class="title">Ingresa tu peso para calcularlo</h1>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Peso</label>
+          <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Nunca dire tu peso por las redes</div>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
     <script src="index.js"></script>
+
+ 
 </body>
 </html>
